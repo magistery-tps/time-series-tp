@@ -24,11 +24,10 @@ $ cd time-series
 $ conda env create -f environment.yml
 ```
 
-
 **Step 3**: Extract wegiths.
 
 ```bash
-$ conda env create -f environment.yml
+$  rar x weights.part1.rar
 ```
 
 ## See notebooks in jupyter lab
