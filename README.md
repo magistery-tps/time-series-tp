@@ -2,7 +2,7 @@
 
 ## Notebooks
 
-* [Etherium prediction](https://github.com/magistery-tps/time-series/tree/master/notebooks/etherium_prediction.ipynb)
+* [Etherium prediction](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/etherium_prediction.ipynb)
 
 ## Requisites
 
