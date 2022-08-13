@@ -1,10 +1,10 @@
 import torch
 from torch import nn
-from .model_eval import ModelEvalMixin
+from .model_predict_mixin import model_predict_mixin
 import pytorch_common.modules as mm
 
 
-class TimeSeriesPredictor(nn.Module, ModelEvalMixin, mm.FitMixin):
+class TimeSeriesPredictor(nn.Module, model_predict_mixin, mm.FitMixin):
     def __init__(self, input_size, n_hidden_units, n_layers=2, dropout=0.2):
         super().__init__()
         self.n_layers       = n_layers
