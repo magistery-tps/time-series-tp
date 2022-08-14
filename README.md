@@ -2,7 +2,10 @@
 
 ## Notebooks
 
-* [Etherium prediction](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/etherium_prediction.ipynb)
+* [Etherium prediction: RNN with one output](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/etherium_prediction-rnn_one_output.ipynb)
+* [Etherium prediction: RNN with mutiple outputs](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/etherium_prediction-rnn_multi_input_output.ipynb)
+* [Etherium prediction: Prophet](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/etherium_prediction_prophet.ipynb)
+
 
 ## Requisites
 

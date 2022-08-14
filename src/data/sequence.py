@@ -17,11 +17,15 @@ def variable_to_sequences(variable, window_size):
     return np.array([seq for seq in sliding_window_view(variable, window_size)])
 
 
-def features_target_split(sequences):
+def features_target_split(sequences, target_size=1):
     features, targets = [], []
     for seq in sequences:
         seq_len = len(seq)
-        features.append(seq[:seq_len-1])
-        targets.append(seq[seq_len-1])
+        features.append(seq[:seq_len-target_size])
+
+        if target_size == 1:
+            targets.append(seq[seq_len-target_size])
+        else:
+            targets.append(seq[-target_size:])
 
     return np.array(features), np.array(targets)

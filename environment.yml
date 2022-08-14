@@ -15,4 +15,4 @@ dependencies:
     - ipywidgets
     - pip
     - pip:
-        - pytorch-common==0.0.19
+        - pytorch-common==0.0.21
