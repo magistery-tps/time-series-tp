@@ -1,4 +1,4 @@
-# UBA - Maestria en Explotación de Datos y Descubrimiento de Conocimiento - Series de tiempo - Trabajo Practico
+# UBA - Maestria en Explotación de Datos y Descubrimiento de Conocimiento - Series temporales - Trabajo Practico
 
 ## Notebooks
 
