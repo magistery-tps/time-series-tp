@@ -2,17 +2,15 @@ name: time-series
 channels:
     - defaults
     - pytorch
-    - conda-forge
 dependencies:
     - seaborn
     - matplotlib
     - numpy
-    - pytorch=1.11.0
-    - torchtext
-    - torchmetrics
-    - cudatoolkit=11.3
     - jupyterlab
     - ipywidgets
     - pip
     - pip:
+        - --extra-index-url https://download.pytorch.org/whl/cu116
+        - torch==1.12.1+cu116
+        - torchvision==0.13.1+cu116
         - pytorch-common==0.0.21

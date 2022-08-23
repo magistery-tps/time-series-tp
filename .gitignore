@@ -128,3 +128,4 @@ dmypy.json
 .pyre/
 
 weights/
+datasets/consumo_energetico_diario.csv
