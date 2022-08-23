@@ -1,4 +1,4 @@
-# UBA - Maestria en Explotación de Datos y Descubrimiento de Conocimiento - Series de tiempo - Trabajo Practico
+# UBA - Maestria en Explotación de Datos y Descubrimiento de Conocimiento - Series temporales - Trabajo Practico
 
 ## Notebooks
 
@@ -6,6 +6,9 @@
 * [LSTM: predict next n outputs](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-n_next_outputs.ipynb)
 * [Prophet](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction_prophet.ipynb)
 
+## Dataset
+
+* [GDrive](https://drive.google.com/drive/folders/146EQPBprq7yV_TR9tk712A9QCaD9lbjH?usp=sharing)
 
 ## Requisites
 
