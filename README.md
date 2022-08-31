@@ -18,7 +18,7 @@
 
 ## Requisites
 
-* [anaconda](https://www.anaconda.com/products/individual) / [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+* [anaconda](https://www.anaconda.com/products/individual) / [miniconda](https://docs.conda.io/en/latest/miniconda.html) / [mamba (Recomendado)](https://github.com/mamba-org/mamba)
 * [Setup de entorno (Window)](https://www.youtube.com/watch?v=O8YXuHNdIIk)
 
 ## Getting started
