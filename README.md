@@ -6,6 +6,7 @@
 * EDA
   * [Python](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_ff.ipynb)
   * [R](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_funcionesR.ipynb)
+* [Pre-Procesamiento](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/pre-processing.ipynb)
 * [LSTM: predict next output](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-next_output.ipynb)
 * [LSTM: predict next n outputs](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-n_next_outputs.ipynb)
 * [Prophet](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction_prophet.ipynb)
