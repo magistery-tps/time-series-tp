@@ -2,6 +2,8 @@
 
 ## Notebooks
 
+
+* [EDA](EDA_ff.ipynb)
 * [LSTM: predict next output](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-next_output.ipynb)
 * [LSTM: predict next n outputs](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-n_next_outputs.ipynb)
 * [Prophet](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction_prophet.ipynb)
