@@ -8,8 +8,9 @@
   * [R](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_funcionesR.ipynb)
 * [Pre-Procesamiento](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/pre-processing.ipynb)
 * Modelos
-  * [LSTM: predict next output](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-next_output.ipynb)
-  * [LSTM: predict next n outputs](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-n_next_outputs.ipynb)
+  * LSTM
+    * [Predict next output](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-next_output.ipynb)
+    * [Predict next n outputs](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-n_next_outputs.ipynb)
   * [Prophet](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction_prophet.ipynb)
 
 ## Dataset
