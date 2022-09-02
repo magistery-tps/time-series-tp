@@ -12,3 +12,5 @@ temp_json = json.load(f)
 df_temp = pd.DataFrame(list(zip(list(tj.keys()), list(tj.values()))), columns =['Fecha', 'T_mean'])
 df_temp['Fecha'] = pd.to_datetime(df_temp['Fecha'], format='%Y%m%d')
 df_temp = df_temp.sort_values('Fecha')
+
+df_temp.to_csv('../datasets/Temperatura.csv')
