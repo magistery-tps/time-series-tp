@@ -51,5 +51,5 @@ def plot_col_boxplot(df, column, title_prefix='', figsize=(20, 3)):
 def plot_ts_var(df, x_column, y_column, bins=5, title_prefix='', figsize=(20, 3)):
     sns.set(rc = {'figure.figsize':figsize})
     plot_col_ts(df, x_column, y_column, title_prefix=title_prefix)
-    plot_col_boxplot(df, y_column, title_prefix=title_prefix)
+    # plot_col_boxplot(df, y_column, title_prefix=title_prefix)
     # plot_col_hist(df, y_column, bins=bins, title_prefix=title_prefix)
