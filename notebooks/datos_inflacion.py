@@ -50,7 +50,7 @@ for i in range(datos_inflacion.shape[0]):
 
 plt.plot(datos_inflacion.fecha, datos_inflacion.inflacion_diaria)
 plt.legend()
-plt.ylabel('Precio')
+plt.ylabel('Inflacion diaria')
 plt.xlabel('Fecha [Año]')
 plt.show()
 
