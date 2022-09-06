@@ -22,6 +22,10 @@ class TimeSeriesPredictor(nn.Module, mm.PredictMixin, mm.FitMixin):
             dropout     = dropout,
             num_layers  = self.n_layers
         )
+        self.hidden_linear = nn.Linear(
+            in_features  = self.n_hidden_units,
+            out_features = self.n_hidden_units
+        )
         self.linear = nn.Linear(
             in_features  = self.n_hidden_units,
             out_features = out_features
@@ -33,6 +37,9 @@ class TimeSeriesPredictor(nn.Module, mm.PredictMixin, mm.FitMixin):
         c0 = torch.zeros(self.n_layers, batch_size, self.n_hidden_units).requires_grad_().to(self.device)
 
         _, (hidden, _) = self.rnn(input_batch.to(self.device))
-        return self.linear(hidden[-1]).squeeze(1)
+        
+        out = self.hidden_linear(hidden[-1]).squeeze(1)
+        return self.linear(out).squeeze(1)
 
+        
 
