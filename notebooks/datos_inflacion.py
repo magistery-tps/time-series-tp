@@ -32,6 +32,7 @@ ffecha = datetime(2022,1,1)
 cols_interes = ['Inflacion', 'Unnamed: 4','Fuente', 'inflacion_diaria']
 
 # Trabajo con mi consumo eléctrico
+fechas_inf = datos_inflacion.fecha.values
 fechas_todas = pd.date_range(cfecha, ffecha-timedelta(days=1), freq='d').values
 fechas_df = pd.DataFrame(list(set(fechas_todas) - set(fechas_inf)), columns=['fecha'])
 datos_inflacion = pd.concat([datos_inflacion, fechas_df], ignore_index=True)

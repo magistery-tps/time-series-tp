@@ -1,4 +1,5 @@
 import pandas as pd
+from datetime import datetime
 import json
 import os
 
@@ -18,5 +19,10 @@ df_temp['Fecha'] = pd.to_datetime(df_temp['Fecha'], format='%Y%m%d')
 df_temp['longitud'] =  temp_json['geometry']['coordinates'][0]
 df_temp['latitud'] = temp_json['geometry']['coordinates'][1]
 df_temp = df_temp.sort_values('Fecha')
+df_temp = df_temp.rename(columns={'Fecha': 'fecha'})
+df_temp['fecha'] = df_temp['fecha'].astype('datetime64[ns]')
+df_temp = df_temp[df_temp.fecha>=datetime(2006,1,1)][df_temp.fecha<=datetime(2021,12,31)]
+df_temp = df_temp.reset_index(drop=True)
 
+# Save
 df_temp.to_csv(f"../datasets/Temperatura_lon_{str(temp_json['geometry']['coordinates'][0])}_lat_{str(temp_json['geometry']['coordinates'][1])}.csv")
