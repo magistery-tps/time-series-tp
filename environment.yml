@@ -13,6 +13,8 @@ dependencies:
     - r-irkernel
     - statsmodels
     - prophet
+    - xgboost
+    - graphviz
     - pip
     - pip:
         - --extra-index-url https://download.pytorch.org/whl/cu116
