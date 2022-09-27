@@ -3,15 +3,15 @@
 
 ## Notebooks
 
-* EDA
-  * Demanda Energetica
+* **EDA**
+  * **Demanda Energetica**
       * [Python](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_ff.ipynb)
       * [R](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_funcionesR.ipynb)
-  * Tarifas
+  * **Tarifas**
     * [Scraping](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/tarifas-scraping.ipynb)
     * [Análisis](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/tarifas-eda.ipynb)
-  
-* Modelos
+ 
+* **Modelos**
   * [LSTM](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-lstm.ipynb)
   * [Prophet](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction_prophet.ipynb)
   * [Prophet: CDD y HDD como variables predictoras](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/prediction_prophet_CDD_HDD.ipynb)
