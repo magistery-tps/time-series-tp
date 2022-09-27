@@ -20,9 +20,6 @@
   * [Kats](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/analisis_prediccion_kats.ipynb)
   * [NBeats](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/predictions-nbeats.ipynb)
 
-## Dataset
-
-* [GDrive](https://drive.google.com/drive/folders/146EQPBprq7yV_TR9tk712A9QCaD9lbjH?usp=sharing)
 
 ## Requisites
 
