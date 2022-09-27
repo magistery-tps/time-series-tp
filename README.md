@@ -2,12 +2,14 @@
 
 ## Notebooks
 
-* [Scraping de tarifas](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/tarifas-scraping.ipynb)
+
 * EDA
-  * Demanda energetica
+  * Demanda Energetica
       * [Python](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_ff.ipynb)
       * [R](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_funcionesR.ipynb)
-  * [Tarifas](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/tarifas-eda.ipynb)
+  * Tarifas
+   * [Scraping](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/tarifas-scraping.ipynb)
+   * [Análisis](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/tarifas-eda.ipynb)
   
 * Modelos
   * LSTM
