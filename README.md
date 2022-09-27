@@ -17,6 +17,7 @@
   * [Prophet: CDD y HDD como variables predictoras](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/prediction_prophet_CDD_HDD.ipynb)
   * [Prophet Simple: CDD y HDD como variables predictoras](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/prediction_simple_prophet_CDD_HDD.ipynb)
   * [Modelo Hibrido (Ensample)](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/prediction_modelo_hibrido.ipynb)
+  * [Kats](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/analisis_prediccion_kats.ipynb)
   * [NBeats](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/predictions-nbeats.ipynb)
 
 ## Dataset
