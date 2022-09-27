@@ -1,4 +1,4 @@
-# UBA - Maestria en Explotación de Datos y Descubrimiento de Conocimiento - Series temporales - Trabajo Practico
+# UBA - Maestria en Explotación de Datos y Descubrimiento de Conocimiento - Series temporales - Predicción del consumo de energía eléctrica en GBA
 
 ## Notebooks
 
