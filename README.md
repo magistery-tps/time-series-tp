@@ -8,8 +8,8 @@
       * [Python](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_ff.ipynb)
       * [R](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/EDA_funcionesR.ipynb)
   * Tarifas
-   * [Scraping](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/tarifas-scraping.ipynb)
-   * [Análisis](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/tarifas-eda.ipynb)
+    * [Scraping](https://github.com/magistery-tps/time-series-tp/blob/master/notebooks/tarifas-scraping.ipynb)
+    * [Análisis](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/tarifas-eda.ipynb)
   
 * Modelos
   * [LSTM](https://github.com/magistery-tps/tm-tp/blob/master/notebooks/prediction-lstm.ipynb)
