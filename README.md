@@ -1,9 +1,9 @@
 
 <p align="left">
-<b>University of Buenos Aires (UBA)</br>Master in Data Mining and Knowledge Discovery</b>
+<b>University of Buenos Aires (UBA)</br>Master in Data Mining and Knowledge Discovery<br/> Series temporales</b>
 </p>
 
-# Series temporales - Predicción del consumo de energía eléctrica en GBA
+# Predicción del consumo de energía eléctrica en GBA
 
 
 ## Notebooks
