@@ -1,4 +1,9 @@
-# UBA - Maestria en Explotación de Datos y Descubrimiento de Conocimiento - Series temporales - Predicción del consumo de energía eléctrica en GBA
+
+<p align="left">
+<b>University of Buenos Aires (UBA)</br>Master in Data Mining and Knowledge Discovery</b>
+</p>
+
+# Series temporales - Predicción del consumo de energía eléctrica en GBA
 
 
 ## Notebooks
